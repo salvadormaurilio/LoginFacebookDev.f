@@ -10,10 +10,17 @@
     <string name="text_pefil">PERFIL</string>
     <string name="text_request_josn">RESPUESTA EN JSON</string>
     <string name="message_not_logged">Aun no Inicias Sesión</string>
-    <string name="title_activity_pefil">PefilActivity</string>
-    <string name="title_activity_json">JsonActivity</string>
+    <string name="title_activity_pefil">Perfil</string>
+    <string name="title_activity_json">Json</string>
     <string name="message_log_out">Se cerro la Sesión</string>
     <string name="message_error">Ocurrió un error, verifica tu conexión a Internet y vuelve a intentarlo</string>
     <string name="welcome">Bienvenido</string>
+    <string name="text_share">Compatir</string>
+
+    <string name="text_fist_name">Nombre: </string>
+    <string name="text_last_name">Apellido: </string>
+    <string name="text_email">Email:</string>
+    <string name="text_birthday">Cumpleaños:</string>
+    <string name="text_gender">Genero:</string>
 
 </resources>
