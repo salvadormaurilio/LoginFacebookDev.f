@@ -10,6 +10,8 @@
 
     <TextView
         android:id="@+id/textViewJson"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
