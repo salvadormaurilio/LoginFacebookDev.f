@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Login Facebook Dev.f</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Cerrar Sesión</string>
+    <string name="facebook_app_id">1573800229529541</string>
+    <string name="text_login">INICIAR SESIÓN</string>
+    <string name="text_logout">CERRAR SESIÓN</string>
+    <string name="text_pefil">PERFIL</string>
+    <string name="text_request_josn">RESPUESTA EN JSON</string>
+    <string name="message_not_logged">Aun no Inicias Sesión</string>
+    <string name="title_activity_pefil">PefilActivity</string>
+    <string name="title_activity_json">JsonActivity</string>
+    <string name="message_log_out">Se cerro la Sesión</string>
+    <string name="message_error">Ocurrió un error, verifica tu conexión a Internet y vuelve a intentarlo</string>
+    <string name="welcome">Bienvenido</string>
+
+</resources>

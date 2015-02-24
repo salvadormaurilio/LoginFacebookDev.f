@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <com.facebook.widget.LoginButton
+        style="@android:style/Widget"
+        android:id="@+id/buttonLoginFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:paddingRight="64dp"
+        android:paddingEnd="64dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/drawable_btn_facebook"
+        android:drawableLeft="@drawable/ic_f"
+        facebook:login_text="@string/text_login"
+        facebook:logout_text="@string/text_logout"
+        android:drawableStart="@drawable/ic_f" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_pefil"
+        android:textColor="@android:color/white"
+        android:id="@+id/buttonPefil"
+        android:textStyle="bold"
+        android:background="@drawable/drawable_btn_default"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/buttonLoginFacebook"
+        tools:ignore="UnusedAttribute" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_request_josn"
+        android:textColor="@android:color/white"
+        android:id="@+id/buttonRequestJson"
+        android:textStyle="bold"
+        android:background="@drawable/drawable_btn_default"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/buttonPefil"
+        tools:ignore="UnusedAttribute" />
+
+</RelativeLayout>
