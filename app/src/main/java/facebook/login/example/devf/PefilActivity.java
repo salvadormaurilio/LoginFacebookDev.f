@@ -52,7 +52,7 @@ public class PefilActivity extends ActionBarActivity {
         TextView textViewPerfil = (TextView) findViewById(R.id.textViewPerfil);
 
         ImageView imageView = (ImageView) findViewById(R.id.imageViewPerfil);
-        String urlPicturePerfil = "https://graph.facebook.com/" + user.getId() + "/picture?width=240&height=240";
+        String urlPicturePerfil = "https://graph.facebook.com/" + user.getId() + "/picture?width=200&height=200";
 
         Picasso.with(PefilActivity.this).load(urlPicturePerfil).transform(new CirclePicture()).into(imageView);
 
